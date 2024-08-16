@@ -19,7 +19,7 @@
 <body>
     <h1>문의하기</h1>
     
-    <form action="{{ url_for('send_message') }}" method="POST">
+    <form action="{{ url_for('main.send_message') }}" method="POST">
         <label for="name">성함:</label>
         <input type="text" id="name" name="name" required><br><br>
 
